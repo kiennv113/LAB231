@@ -1,0 +1,152 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 1, 2021, 10:48:51 PM
+    Author     : Kien Nguyen
+*/
+body {
+    height:100%;
+    width: 100%;
+    font-family: sans-serif;
+    background-repeat: no-repeat; 
+    background-position-x: 50%;
+    background-image: url(../images/front.jpg);
+    background-size: 80% 55%;
+    background-attachment: local;
+}
+#main-content {
+    width: 100%;  
+    display: block;
+    height:100%;
+}
+form{
+    text-align: center;
+}
+#main-panel {   
+    text-align:center;
+    display: inline-block;
+    width: 53%;
+    height: 100%;
+    position: absolute;
+}
+
+#left{
+    display: inline-block;
+    width: 16%;
+    text-align: left;
+    padding-left: 7%;
+    padding-top: 3%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#title{  
+
+    width: 100%;
+
+    text-align: center;
+    height: 150px;
+
+}
+
+#title1{
+    padding-top: 20px;
+    font-size: 30px;
+    color: white; 
+    margin: 2px;
+}
+#title2{
+    font-size: 20px;
+    color: white;
+}
+
+#big-blue{
+    color: blue;   
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}   
+
+#red{
+    color: red;
+}
+
+.btn{
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+}
+
+#btn-blue{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding-top: 5px;
+    color: blue;
+}
+#failed {
+    display: inline-block;
+    color : red;
+}
+#blue{
+    color: blue;
+}
+
+table >tr>th>td{
+    border:1px solid black;
+}
+th {
+    background-color: #ddd;
+}
+th, td {
+    padding: 3px;
+    border:1px solid black;
+}
+
+table{
+    display: inline-block;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+#solvetbl
+{
+    display: inline-block;
+}
+
+#form{
+    display: inline-block;
+}
+
+#form btn{
+    text-align: center; 
+    display: inline-block;
+}
+#rtitle{
+    color: green;
+}
+a{
+    text-decoration: none;
+    color: #990099;
+}
+form#formsearch{
+    background-color:#999999;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#fixed{
+    background-color: #cccccc;    
+}
+#main-panel2{
+    text-align: center;
+    display: inline-block;
+    width: 53%;
+    height: 100%;
+    position: absolute;
+}
